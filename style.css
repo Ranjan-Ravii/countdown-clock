@@ -1,0 +1,74 @@
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.defalut-time-box {
+    height: auto;
+    width: auto;
+    margin: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.predefined-time {
+    height: 40px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.inputTime {
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    font-size: large;
+    
+}
+.startbtn{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    font-size: large;
+}
+
+.countdown-box {
+    height: 200px;
+    width: 350px;
+    border: 1px solid black;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeContainer {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    margin: 2px;
+}
+
+.span {
+    font-size: 5rem;
+    margin: 2px;
+}
+
+.finishedMessage {
+    font-size: 5rem;
+    margin-top: 20px;
+}
